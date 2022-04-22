@@ -1,0 +1,22 @@
+.mydiv {
+        border: #CCC 1px solid;
+        display:inline-block;
+        height:189px;
+        width:156px;
+        border-collapse:collapse;
+        background-color: #FFF;
+        position:relative;
+}
+
+.mycorner {
+    		width:0px;
+    		height:0px;
+    		border-bottom: #09F 17px solid;   /*inside part*/
+    		border-left: white 25px solid;   /*outside part*/
+    		position:absolute;
+    		bottom:-1px;
+    		right:-1px;
+    		-webkit-box-shadow: -3px -2px 5px 0px rgba(0,0,0,0.2);
+    		-moz-box-shadow: -3px -2px 5px 0px rgba(0,0,0,0.2);
+    		box-shadow: -3px -2px 5px 0px rgba(0,0,0,0.2);
+}
